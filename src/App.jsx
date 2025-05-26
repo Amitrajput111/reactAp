@@ -15,4 +15,4 @@ function App() {
     </div>
   </center>
 }
-export default App;
+export default App
