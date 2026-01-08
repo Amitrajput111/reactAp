@@ -4,13 +4,13 @@ A collection of React applications built with Vite, showcasing various features 
 
 ## 🚀 Live Projects
 
-*Links will be added after deployment on Vercel*
+All projects are now live on Vercel! 🎉
 
-- **Todo App** - `Projects/1-app` - [Live Demo](#) *(Coming soon)*
-- **Bharat Clock** - `Projects/2-bharat-clock` - [Live Demo](#) *(Coming soon)*
-- **Calculator** - `Projects/4-calculator-1/calculator` - [Live Demo](#) *(Coming soon)*
-- **Food Items (Fragments)** - `18-Fragments/learning-fragments` - [Live Demo](#) *(Coming soon)*
-- **Social Media App** - `Projects/7-social-media` - [Live Demo](#) *(Coming soon)*
+- **Todo App** - `Projects/1-app` - [🌐 Live Demo](https://1-app-theta.vercel.app)
+- **Bharat Clock** - `Projects/2-bharat-clock` - [🌐 Live Demo](https://2-bharat-clock-flame.vercel.app)
+- **Calculator** - `Projects/4-calculator-1/calculator` - [🌐 Live Demo](https://calculator-chi-three-94.vercel.app)
+- **Food Items (Fragments)** - `18-Fragments/learning-fragments` - [🌐 Live Demo](https://learning-fragments.vercel.app)
+- **Social Media App** - `Projects/7-social-media` - [🌐 Live Demo](https://7-social-media-seven.vercel.app)
 
 ## 📁 Project Structure
 
