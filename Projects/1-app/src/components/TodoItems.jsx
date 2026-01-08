@@ -1,4 +1,4 @@
-import styles from "./TodoItems..module.css";
+import styles from "./TodoItems.module.css";
 import TodoItem from "./TodoItem";
 
 const TodoItems = ({ todoItems, onDeleteTodo }) => {
