@@ -1,20 +1,18 @@
-import Button from"./Button";
-import Hello from "./Hello";
-import Random from "./Random";
+import AppName from "./component/AppName";
+import AddTodo from "./component/AddTodo";
+import TodoItem1 from "./component/TodoItem1";
+import TodoItem2 from "./component/TodoItem2";
+import  "./App.css";
+
 function App() {
-   return <div>
-    this is mytest div
-    <button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
+  return <center className="todo-container">
+    <AppName />
+    <AddTodo />
 
-<button type="button" class="btn btn-link">Link</button>
-
-   </div>
+    <div className="items-container"> 
+    <TodoItem1 />
+    <TodoItem2 />
+    </div>
+  </center>
 }
-export default App;
+export default App
