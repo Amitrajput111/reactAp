@@ -295,7 +295,15 @@ This project is open source and available for **learning and portfolio purposes*
 
 **⭐ If you find this portfolio helpful, please consider giving it a star! ⭐**
 
-**Built with ❤️ using React + Vite**
+**Built with ❤️ by Amit Rajput using React + Vite**
+
+---
+
+<div align="center">
+
+**Created by [Amit Rajput](https://github.com/Amitrajput111)**
+
+</div>
 
 [⬆ Back to Top](#-react-mini-projects-portfolio)
 
