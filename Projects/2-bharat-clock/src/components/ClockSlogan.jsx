@@ -1,4 +1,9 @@
-let ClockSlogan = () => {
-  return <p className="lead"> This is Clock that
-   show the time in bharat at all times . </p>
-} ;export default ClockSlogan ;
+const ClockSlogan = () => {
+  return (
+    <p className="lead text-white-50 mb-5">
+      Real-time clock showing the current time in India 🇮🇳
+    </p>
+  );
+};
+
+export default ClockSlogan;

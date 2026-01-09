@@ -1,42 +1,115 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e8ba3 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 2rem;
+}
+
+.content-wrapper {
   text-align: center;
+  width: 100%;
+  max-width: 800px;
 }
 
-.logo {
-  height: 5em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.clock-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding: 3rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-@keyframes logo-spin {
+.clock-display {
+  margin: 2rem 0;
+}
+
+.time-section {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.time-digits {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.1em;
+}
+
+.blink {
+  animation: blink 1s infinite;
+  color: #ffd700;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0.3; }
+}
+
+.ampm {
+  font-size: 2rem;
+  color: #ffd700;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.date-section {
+  color: white;
+}
+
+.date-display {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.timezone {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.greeting h3 {
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock-heading h1 {
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  animation: fadeInDown 0.8s ease;
+}
+
+@keyframes fadeInDown {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(-30px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width: 768px) {
+  .time-digits {
+    font-size: 3rem;
+  }
+  
+  .ampm {
+    font-size: 1.5rem;
+  }
+  
+  .date-display {
+    font-size: 1.2rem;
+  }
+  
+  .clock-container {
+    padding: 2rem 1.5rem;
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
