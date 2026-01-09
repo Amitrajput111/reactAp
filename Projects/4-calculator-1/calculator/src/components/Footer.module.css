@@ -1,0 +1,16 @@
+.footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: #666;
+}
+
+.footerText {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footerText strong {
+  color: #333;
+}
+
